@@ -1,1 +1,1 @@
-# Exerccios de introdução ao Java
+# Exercícios de introdução ao Java

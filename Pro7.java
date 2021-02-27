@@ -1,23 +1,13 @@
 public class Pro7 {
-    public static void main(String[] args) {
-        int cont1= 0;
-        int num = 1;
-        while(num < 16){
-            for (int i = 1 ; i <= num ; i++){
-                if ((num%i) == 0){
-
-                    cont1++;
-                }
+    public static void main(String args[]) {
+        for (int i = 1; i <= 48; i++) {
+            int counter = 0;
+            for (int k = 1; k <= i; k++) {
+                if (i % k == 0) ++counter;
             }
-            if (cont1 ==2 ){
-                System.out.println("primo"+num+"primo");
-
-            }else{
-                System.out.println("primo "+num+" não primo");
+            if (counter == 2) {
+                System.out.println( i + " é primo");
             }
         }
-
-        }
-
-    
+    }
 }

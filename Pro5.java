@@ -1,4 +1,4 @@
-public class Pro9{
+public class Pro5{
     public static void main(String args[]) {
 		int n = 1;
 		int nn = 1;

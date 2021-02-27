@@ -19,7 +19,6 @@ public class Pro9{
 				}
 	
 			}
-			
 		nn++;
 		}
 
